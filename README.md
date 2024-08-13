@@ -41,13 +41,16 @@ Make sure you have the following installed on your machine:
 Set Up the Backend
 Navigate to the backend directory (mean-server) and install the required dependencies:
 
-```cd booKART_Main/mean-server
-npm install
-nodemon index
-
+    ```bash
+    cd booKART_Main/mean-server
+    npm install
+    nodemon index
 Set Up the Frontend
-cd ../booKART-client
-npm install
+
+```bash
+  cd ../booKART-client
+  npm install
 http://localhost:5173/
+
 
 
