@@ -1,0 +1,6 @@
+header,nav{
+    z-index: 1000001111 !important;
+}
+body{
+    background-color: #f2f4ff;
+}

@@ -1,0 +1,51 @@
+
+.custom-sidebar {
+   
+    background-color: #ffffff; /* Tailwind's gray-800 color */
+    color: #ffffff; /* Text color */
+    width: 20vw; /* Width of the sidebar */
+    height: 100vh;
+    margin: 20px;
+    border-radius: 5px;
+    
+  }
+  
+  .custom-sidebar .logo {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+ 
+  }
+  
+  .custom-sidebar .logo img {
+    width: 10rem; /* Adjust the size of the logo */
+
+  }
+  
+  .custom-sidebar .sidebar-item {
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    text-align: right;
+  }
+  
+  .custom-sidebar .sidebar-item:hover {
+    background-color: #374151; /* Tailwind's gray-700 color */
+  }
+  
+  .custom-sidebar .sidebar-item a {
+    color: #ffffff;
+    display: flex;
+    align-items: left;
+  }
+  
+  .custom-sidebar .sidebar-item a svg {
+    margin-right: 10px;
+
+  }
+  
+
+  .custom-sidebar .sidebar-item-group {
+    margin-top: 20px;
+  }
+  
